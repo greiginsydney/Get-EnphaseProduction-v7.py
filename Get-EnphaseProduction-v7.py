@@ -28,9 +28,9 @@ from requests.auth import HTTPDigestAuth
 from urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 
-USER = 'gspam1@gisyd.com'
-PASSWORD = 'G@.8tDA9tL9Gved68_rimibyiP9Howg4dtH8UywWRMg@B-4Er3'
-SERIAL_NUMBER = '122214042406'
+USER = 'yourEnvoyUsername@yourDomain.com' # These are the credentials you use to login to the Enphase website
+PASSWORD = 'abscdg123456789...etc'        # "
+SERIAL_NUMBER = '123456789098765432'      # Get this from the Envoy app: Menu / system / Devices / Gateway. It's the "SN:"
 
 USER_HOME =  os.path.expanduser('~')
 #TOKEN_FILE  = os.path.join(os.getcwd(), 'envoy_token.json')
