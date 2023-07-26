@@ -158,8 +158,8 @@ def main():
         result = {'prtg': {'text' : 'Python Script execution error', 'error' : "%s" % str(e)}}
 
     print('')
-    #print(json.dumps(result))
-    print(json.dumps(result, indent=4)) # Pretty - for dev and testing
+    print(json.dumps(result))
+    #print(json.dumps(result, indent=4)) # Pretty - for dev and testing
 
 
 def getToken(token):
